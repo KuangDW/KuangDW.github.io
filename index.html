@@ -7,20 +7,28 @@
     <link rel="stylesheet" href="style.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f9fa;
+            color: #333;
         }
         header {
-            background: #333;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
             color: white;
-            padding: 20px;
+            padding: 40px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
             text-align: center;
         }
         nav ul {
             list-style: none;
             padding: 0;
+            margin: 0;
         }
         nav ul li {
             display: inline;
@@ -29,19 +37,25 @@
         nav ul li a {
             color: white;
             text-decoration: none;
+            font-weight: bold;
         }
         section {
-            padding: 20px;
-            margin: 20px;
+            max-width: 900px;
+            margin: 40px auto;
             background: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #6a11cb;
         }
         footer {
             text-align: center;
-            padding: 10px;
+            padding: 20px;
             background: #333;
             color: white;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -49,17 +63,17 @@
     <header>
         <h1>Kuang-Da Wang</h1>
         <p>Ph.D. Candidate | Researcher | AI & Data Science Enthusiast</p>
-        <nav>
-            <ul>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#awards">Awards</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
     </header>
+    <nav>
+        <ul>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
     
     <section id="education">
         <h2>Education</h2>
@@ -98,6 +112,7 @@
         <p>Email: gdwang.cs12@nycu.edu.tw</p>
         <p>GitHub: <a href="https://github.com/KuangDW">github.com/KuangDW</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/MaxGdwang">linkedin.com/in/MaxGdwang</a></p>
+        <p><strong>CV:</strong> <a href="https://docs.google.com/document/d/1E_dsOk_H_u9pnivJJSXS3Aw0hAdkFtglNrN4gwNQerk/edit?usp=sharing" target="_blank">View CV</a></p>
     </section>
     
     <footer>
@@ -105,4 +120,3 @@
     </footer>
 </body>
 </html>
-
